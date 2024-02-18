@@ -153,7 +153,7 @@ if [[ "$input" == "y" ]] || [[ "$input" == "yes" ]] || [[ "$input" == "Y" ]]; th
     adb shell pm disable-user com.heytap.themestore
     adb shell pm uninstall -k --user 0 com.coloros.calculator
     adb shell pm uninstall -k --user 0 com.google.android.youtube
-    adb shell pm uninstall -k --user 0 com.coloros.gallery3d
+    # adb shell pm uninstall -k --user 0 com.coloros.gallery3d
     echo "All Shit Gone Yeayyyyyyy!"
 else
     echo "Abort."
