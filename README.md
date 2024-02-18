@@ -7,6 +7,7 @@
 
 ## Disclaimer - Use it on your own risk.
 
+- Tested on realmemeui 2.0
 - This will remove all unwanted realmeme apps.
 - some apps are not removeable so will be disabled.
 - comment stuff you dont want to remove.
