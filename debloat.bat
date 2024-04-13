@@ -1,6 +1,6 @@
 @echo OFF
 echo Do you want to Debloat your Device?[y/n]
-set /p input="Enter your choice: "
+set /p input="Enter your choice:"
 if /i "%input%"=="y"(
     echo You entered yes.
     adb shell pm uninstall -k --user 0 cn.wps.moffice_eng
