@@ -1,7 +1,7 @@
 @echo OFF
 echo Do you want to Debloat your Device?[y/n]
 set /p input="Enter your choice: "
-if /i "%input%"=="y" || /i "%input%"=="yes" || /i "%input%"=="Y" (
+if /i "%input%"=="y"(
     echo You entered yes.
     adb shell pm uninstall -k --user 0 cn.wps.moffice_eng
     adb shell pm uninstall -k --user 0 com.realme.link
