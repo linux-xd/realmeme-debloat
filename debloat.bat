@@ -1,8 +1,7 @@
 @echo OFF
-echo Do you want to Debloat your Device?[y/n]
-set /p input="Enter your choice:"
-if /i "%input%"=="y"(
-    echo You entered yes.
+echo Debloating................
+echo wait ...............
+echo removing all shit......
     adb shell pm uninstall -k --user 0 cn.wps.moffice_eng
     adb shell pm uninstall -k --user 0 com.realme.link
     adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon
@@ -152,8 +151,5 @@ if /i "%input%"=="y"(
     adb shell pm uninstall -k --user 0 com.coloros.calculator
     adb shell pm uninstall -k --user 0 com.google.android.youtube
     :: adb shell pm uninstall -k --user 0 com.coloros.gallery3d   :- AOD customization needs it
-    echo "All Shit Gone Yeayyyyyyy!"
-) else (
-    echo You did not enter yes. Abort!!!!!!
-)
+echo "All Shit Gone Yeayyyyyyy!"
 pause
